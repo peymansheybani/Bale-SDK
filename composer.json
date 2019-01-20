@@ -1,5 +1,5 @@
 {
-    "name": "peyman/bale-sdk",
+    "name": "vicente/bale-sdk",
     "description": "Bale SDK",
     "type": "library",
     "require": {
