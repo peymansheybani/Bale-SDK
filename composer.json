@@ -2,6 +2,11 @@
     "name": "peyman/bale-sdk",
     "description": "Bale SDK",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vicente\\Bale\\" : "src/"
+        }
+    },
     "require": {
         "ratchet/pawl": "^0.3.3"
     },
