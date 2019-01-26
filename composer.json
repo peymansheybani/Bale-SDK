@@ -8,7 +8,9 @@
         }
     },
     "require": {
-        "ratchet/pawl": "^0.3.3"
+        "ratchet/pawl": "^0.3.3",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3@dev"
     },
     "authors": [
         {
