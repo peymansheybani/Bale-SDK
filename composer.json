@@ -12,6 +12,7 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3@dev"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "peymansheybani",
