@@ -49,12 +49,12 @@ class Bale {
 				$this->accessHash = $result["body"]["peer"]["accessHash"];
 				$this->username = $result["users"][0][1]["username"];
 				$user = [
-					$this->user_id = $result["body"]["peer"]["id"],
-					$this->accessHash = $result["body"]["peer"]["accessHash"],
-					$this->username = $result["users"][0][1]["username"]
+					"id"           => $this->user_id = $result["body"]["peer"]["id"],
+					"accessHash"   => $this->accessHash = $result["body"]["peer"]["accessHash"],
+					"username"     => $this->username = $result["users"][0][1]["username"]
 				];
-				$callback($user);
-				$conn->close();
+				$callback(json_encode($user));
+//				$conn->close();
 			});
 
 		}, function ($e) {
