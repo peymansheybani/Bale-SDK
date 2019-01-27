@@ -17,7 +17,5 @@
             "name": "peymansheybani",
             "email": "peyman.sheybanii@gmail.com"
         }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    ]
 }
