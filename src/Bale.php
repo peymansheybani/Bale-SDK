@@ -40,7 +40,7 @@ class Bale {
 	 */
 	public function hears($callback) {
 
-		\Ratchet\Client\connect($this->setAddress())->then(function($conn)use($callback) {
+		\Ratchet\Client\connect(self::$address)->then(function($conn)use($callback) {
 
 			$conn->on('message', function($msg) use ($conn,$callback) {
 				$result = json_decode($msg,true);
