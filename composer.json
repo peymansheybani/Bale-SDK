@@ -13,9 +13,14 @@
         "guzzlehttp/guzzle": "^6.3@dev"
     },
     "license": "MIT",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
     "authors": [
         {
-            "name": "peymansheybani",
+            "name": "peyman sheybani",
             "email": "peyman.sheybanii@gmail.com"
         }
     ]
