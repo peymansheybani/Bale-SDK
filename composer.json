@@ -23,5 +23,6 @@
             "name": "peyman sheybani",
             "email": "peyman.sheybanii@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
