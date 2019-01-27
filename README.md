@@ -1,3 +1,4 @@
+<div style="direction:rtl;">
 # Bale-SDK
  کتابخانه برای ارتباط ربات پیام رسان بله
 ===
@@ -138,6 +139,7 @@ $fileMessage = $file->sendFiles("PATH OF YOUR IMAGE OR YOUR FILE",function ($par
 
 ```
 
+</div>
 
 
  
