@@ -43,17 +43,18 @@ class Bale {
 		\Ratchet\Client\connect(self::$address)->then(function($conn)use($callback) {
 
 			$conn->on('message', function($msg) use ($conn,$callback) {
-				$result = json_decode($msg,true);
+//				$result = json_decode($msg,true);
 
-				$this->user_id = $result["body"]["peer"]["id"];
-				$this->accessHash = $result["body"]["peer"]["accessHash"];
-				$this->username = $result["users"][0][1]["username"];
-				$user = [
-					"id"           => $this->user_id = $result["body"]["peer"]["id"],
-					"accessHash"   => $this->accessHash = $result["body"]["peer"]["accessHash"],
-					"username"     => $this->username = $result["users"][0][1]["username"]
-				];
-				$callback(json_encode($user));
+//				$this->user_id = $result["body"]["peer"]["id"];
+//				$this->accessHash = $result["body"]["peer"]["accessHash"];
+//				$this->username = $result["users"][0][1]["username"];
+//				$user = [
+//					"id"           => $this->user_id = $result["body"]["peer"]["id"],
+//					"accessHash"   => $this->accessHash = $result["body"]["peer"]["accessHash"],
+//					"username"     => $this->username = $result["users"][0][1]["username"]
+//				];
+//				$callback(json_encode($user));
+				$callback($msg);
 //				$conn->close();
 			});
 
