@@ -11,7 +11,7 @@ require "../vendor/autoload.php";
 /**
  *  SET YOUR TOKEN FOR USE SEND MESSAGE TYPES
  */
-$Bale = new \Vicente\Bale\Bale("90d03350357438b1ed1176d76c7c204b2efcb0b4");
+$Bale = new \Vicente\Bale\Bale("YOUR TOKEN");
 
 /**
  * hears GET TYPE AND USER ID AND ACCESS HASH
